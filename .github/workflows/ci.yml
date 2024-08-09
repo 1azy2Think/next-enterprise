@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - 'feature/*'
+      - 'features/*'
   pull_request:
     branches:
       - main
-      - 'feature/*'
+      - 'features/*'
 
 jobs:
   build:
